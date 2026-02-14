@@ -1,7 +1,7 @@
 import React from "react";
-import hotel from "../../public/wanderlust.png";
-import salon from "../../public/salon.png";
-import fintrack from "../../public/Fintrack.png";
+import hotel from "../assets/wanderlust.png";
+import salon from "../assets/salon.png";
+import fintrack from "../assets/Fintrack.png";
 
 function Projects() {
   const projects = [

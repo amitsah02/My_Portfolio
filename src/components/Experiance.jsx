@@ -1,12 +1,12 @@
 import React from "react";
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import mongoDB from "../../public/mongodb.jpg";     
-import reactjs from "../../public/reactjs.png";
-import nodejs from "../../public/node.png";
-import express from "../../public/express.png";
+import html from "../assets/html.png";
+import css from "../assets/css.jpg";
+import java from "../assets/java.png";
+import javascript from "../assets/javascript.png";
+import mongoDB from "../assets/mongodb.jpg";     
+import reactjs from "../assets/reactjs.png";
+import nodejs from "../assets/node.png";
+import express from "../assets/express.png";
 
 function Experiance() {
   const cardItem = [

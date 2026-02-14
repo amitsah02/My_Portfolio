@@ -82,11 +82,6 @@ function Footer() {
               <p className="text-sm opacity-80">
                 © {new Date().getFullYear()} Amit Kumar Sah. All rights reserved.
               </p>
-
-              {/* Optional line: keep if you want */}
-              <p className="text-sm opacity-80">
-                Built with ❤️ by Amit 
-              </p>
             </div>
           </div>
         </div>
