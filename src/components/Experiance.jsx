@@ -35,16 +35,16 @@ function Experiance() {
           projects, with strong DSA fundamentals (Java) and deployment exposure.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-6">
+        <div className="flex flex-wrap justify-center gap-7 my-6 max-w-[920px] mx-auto">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className="flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-2 cursor-pointer hover:scale-110 duration-300 bg-white"
+              className="flex flex-col items-center justify-center border-[2px] rounded-full w-[150px] h-[150px] md:w-[200px] md:h-[200px] shadow-md p-2 cursor-pointer hover:scale-110 duration-300 bg-white"
               key={id}
               title={name}
             >
               <img
                 src={logo}
-                className="w-[110px] h-[110px] rounded-full object-contain"
+                className="w-[80px] h-[80px] md:w-[110px] md:h-[110px] rounded-full object-contain"
                 alt={name}
               />
               <div className="mt-2 font-semibold">{name}</div>

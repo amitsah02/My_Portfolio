@@ -25,9 +25,9 @@ function About() {
         </h1>
         <span className="block leading-relaxed">
           <span className="font-semibold">B.Tech (CSE)</span> — Rungta College of Engineering & Technology, Bhilai (2022–2026) |{" "}
-          <span className="font-semibold">CGPA:</span> 7.5
+          <span className="font-semibold">CGPA:</span> 7.64
           <br />
-          <span className="font-semibold">XII (BSEB)</span> — R.K. Dwarika College, Patna (2020) |{" "}
+          <span className="font-semibold">XII (BSEB)</span> — R.K. Dwarika College, Patna  |{" "}
           <span className="font-semibold">74.8%</span>
           <br />
         </span>
@@ -57,6 +57,18 @@ function About() {
           Professional Experience
         </h1>
         <span className="block leading-relaxed">
+          <span className="font-semibold">Process Engineer Intern — NewJaisa Technology, Bengaluru</span>{" "}
+          (May 2026 – Present)
+          <br />
+          Work on ERP-based operational processes.
+          <br />
+          • I am working on my problem-solving skills.
+          <br />
+          • I do Root Cause Analysis (RCA) to find the real reason behind a problem instead of fixing only the symptoms.
+          <br />
+          • I enjoy RCA, and I am more inclined toward technology, which is why I am moving toward software development.
+          <br />
+          <br />
           <span className="font-semibold">Industrial Internship — Bhilai Steel Plant (SAIL)</span>{" "}
           (15 Sept 2025 – 11 Oct 2025)
           <br />

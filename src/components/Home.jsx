@@ -24,17 +24,16 @@ function Home() {
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
-            <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
-              {/* <span >Developer</span> */}
+            <h1 className="text-2xl md:text-4xl">
+              Hello, I'm a{" "}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
+                strings={["Developer","Programmer","Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
               />
-            </div>
+            </h1>
             <br />
            <p className="text-sm md:text-md text-justify">
   I build full-stack products that are clean, scalable, and user-focused. I’m{" "}
@@ -51,22 +50,22 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/amitkumarsah.aj.3" target="_blank" rel="noreferrer">
                       <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/amit-kr-sah" target="_blank" rel="noreferrer">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
+                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
                       <IoLogoYoutube className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/" target="_blank">
+                    <a href="https://t.me/" target="_blank" rel="noreferrer">
                       <FaTelegram className="text-2xl cursor-pointer" />
                     </a>
                   </li>

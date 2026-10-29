@@ -1,6 +1,6 @@
 import React from "react";
 import hotel from "../assets/wanderlust.png";
-import salon from "../assets/salon.png";
+import apnavideo from "../assets/ApnaVideoCall.png";
 import fintrack from "../assets/Fintrack.png";
 
 function Projects() {
@@ -25,20 +25,20 @@ function Projects() {
         "Full-stack trading platform with user login, interactive dashboard, order management, holdings tracking, and portfolio data visualization.",
       stack: ["React", "Node.js", "Express.js", "MongoDB", "REST API"],
       type: "MERN Full Stack",
-      live: "#",
+      live: "https://fintrack-financial-trading.onrender.com",
       source: "https://github.com/amitsah02/Fintrack",
       demo: "#",
     },
     {
       id: 3,
-      logo: salon,
-      name: "Salon Booking System",
+      logo: apnavideo,
+      name: "Apna Video Call – Real-Time Video Communication Platform",
       desc:
-        "JavaScript-based salon booking and staff management system with chatbot support.",
-      stack: ["HTML", "CSS", "JavaScript"],
-      type: "JavaScript Project",
-      live: "#",
-      source: "https://github.com/amitsah02/Salon-Booking-System-",
+        "Real-time video calling app with peer-to-peer audio and video streaming and on-demand meeting rooms.",
+      stack: ["React", "Node.js", "Socket.io", "WebRTC"],
+      type: "Real-Time Full Stack",
+      live: "https://apna-video-call-xxi2.onrender.com",
+      source: "https://github.com/amitsah02", // replace with the exact Apna Video Call repo link
       demo: "#",
     },
   ];
